@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+    <div class="form">
+          <form action="index.html" method="post">
+          
+              <h1>Sign Up</h1>
+          
+              <div>
+                  <fieldset>
+            
+                      <legend>Your Basic Info</legend>
+            
+                <label for="name">First Name:</label>
+                <input type="text" id="name" name="user_name">
+
+                <label for="name">Middle Initial:</label>
+                <input type="text" id="name" name="user_name" maxlength="1">
+
+                  <label for="name">Last Name:</label>
+                  <input type="text" id="name" name="user_name">
+
+                    </fieldset>
+              </div>
+
+              <div class="address">
+                  <fieldset>
+            
+                <label for="address">Address:</label>
+                <input type="address" id="address" name="user_address">
+                 
+                <label for="occupation">Occupation:</label>
+                <input type="occupation" id="occupation" name="user_occupation">
+          
+              </fieldset>
+           </div>
+
+            <div>
+              <fieldset>
+            
+                <label for="employer">Employer:</label>
+                  <input type="employer" id="employer" name="user_employer">
+                  
+                  <label for="employer_address">Employer Address:</label>
+                  <input type="employer_address" id="employer_address" name="employer_address">
+          
+              </fieldset>
+            </div>
+
+            <div>  
+              <fieldset>
+                  <legend>Your Loan</legend>
+                  <label for="loan">Loan Type:</label>
+                <select id="loan" name="user_loan_type">
+                    <optgroup label="Loan Type">
+                      <option value="commercial">Commercial</option>
+                      <option value="real_estate">Real estate</option>
+                      <option value="personal">Personal</option>
+                      <option value="mortgage">Mortgage</option>
+                    </optgroup>
+                 </select>
+            </fieldset>
+          </div>
+
+
+            <div>
+                <label for="loan_amount">Loan Amount:</label>
+                <input type="loan_amount" id="loan_amount" name="loan_amount">
+            </div>
+
+            <div>
+              <label for="loan_length" id="loan_length">Loan Length</label>
+                  <input type="radio" name="loan_length" value="5_years"> 5 Years
+                  <input type="radio" name="loan_length" value="10_years"> 10 Years
+                  <input type="radio" name="loan_length" value="15_years"> 15 Years
+          </div>
+
+          <div>
+                <label for="special_conditions" id="special_conditions">Special Conditions</label>
+                  <input type="checkbox" name="downpayment" value="downpayment">I have a down payment.
+                  <input type="checkbox" name="out_of_state" value="out_of_state">Out of State Resident.
+                  <input type="checkbox" name="married" value="married">Married.
+                  <input type="checkbox" name="co_signed" value="co_signed">Loan Will Be Co-Signed.
+            </div>
+
+            <div>
+              <label for="comments">Additional Comments:</label>
+                <textarea id="comments" name="user_comments"></textarea>
+            </div>
+
+            <div>
+              <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email" required="true">
+          
+            </div>
+
+            <div>
+              <label for="telephone">Phone:</label>
+                  <input type="phone" id="phone" name="user_phone" required="true">
+        </div>
+
+        <div>
+          <label for="url">URL:</label>
+                <input type="url" id="url" name="user_url">
+        </div>
+
+            <div>  
+              <button type="submit">Sign Up</button>
+            </div>
+
+          </form>
+      </div>  
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
